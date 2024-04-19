@@ -3,7 +3,7 @@ import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "InfiniteHealings - Your Path to Inner Peace and Wellness",
+  title: "InfiniteHealings - Your Path to Inner Peace",
   description:
     "Embark on a transformative journey to inner peace and wellness with InfiniteHealings. Explore our holistic approach to healing, meditation, mindfulness, and therapy with InfiniteHealings.in.",
   keywords:
@@ -11,6 +11,7 @@ export const metadata: Metadata = {
 };
 
 import { cn } from "@/lib/utils";
+import Script from "next/script";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -25,8 +26,22 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+
+<Script async src="https://www.googletagmanager.com/gtag/js?id=G-5C1BRTRWYV"></Script>
+<Script id='google-analytics'>
+  {`
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5C1BRTRWYV');
+  
+  `}
+  
+</Script>
+
         <title>
-          InfiniteHealings - Your Path to Inner Peace and Wellness | Home Page
+          InfiniteHealings - Your Path to Inner Peace | Home Page
         </title>
         <meta
           name="description"
