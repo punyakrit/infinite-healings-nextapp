@@ -1,7 +1,12 @@
+import Home from '@/pages/Home'
 import React from 'react'
 
-export default function Home() {
+function page() {
   return (
-    <div>Home Page</div>
+    <div className='h-full w-screen'>
+      <Home/>
+    </div>
   )
 }
+
+export default page
