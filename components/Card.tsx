@@ -1,10 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 
 function Card({ imageUrl, title, alt, description }: any) {
   return (
-    <Link href={"https://wa.me/9876599987"}  className="my-8 relative w-[300px] h-[420px] rounded-3xl overflow-hidden cursor-pointer">
+    <div   className="my-8 relative w-[300px] h-[420px] rounded-3xl overflow-hidden cursor-pointer">
       <div className="absolute inset-0 z-0">
         <Image src={imageUrl} layout="fill" objectFit="cover" alt={alt} />
       </div>
@@ -13,7 +12,7 @@ function Card({ imageUrl, title, alt, description }: any) {
         <h2 className="text-xl font-bold mb-2">{title}</h2>
         <p className="text-sm">{description}</p>
       </div>
-    </Link>
+    </div>
   );
 }
 
