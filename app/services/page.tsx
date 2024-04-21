@@ -1,9 +1,10 @@
+import Services from '@/pages/Services'
 import React from 'react'
 
 function page() {
   return (
     <div>
-      Service Page
+      <Services/>
     </div>
   )
 }

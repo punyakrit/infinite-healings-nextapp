@@ -5,7 +5,10 @@ import bg from "@/public/assets/glow-bg.svg";
 
 function About() {
   return (
-    <div className=" mt-20 h-max relative  rounded-y-3xl overflow-y-hidden">
+    <div
+      id="about-drag"
+      className=" mt-20 h-max relative  rounded-y-3xl overflow-y-hidden"
+    >
       <div className="overflow-x-hidden overflow-y-hidden">
         <Image
           src={bg}
