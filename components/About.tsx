@@ -5,7 +5,7 @@ import bg from "@/public/assets/glow-bg.svg";
 
 function About() {
   return (
-    <div className=" mt-20 h-max relative overflow-hidden rounded-t-3xl">
+    <div className=" mt-20 h-max relative overflow-x-hidden no-scrollbar rounded-t-3xl">
       <Image
         src={bg}
         alt="infinitehealings bg-image"
@@ -52,7 +52,7 @@ function About() {
           <Image
             src={img}
             alt="infinitehealings image"
-            className="rounded-3xl object-scale-down"
+            className="rounded-3xl "
           ></Image>
         </div>
       </div>
