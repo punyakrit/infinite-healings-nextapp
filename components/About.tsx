@@ -5,12 +5,12 @@ import bg from "@/public/assets/glow-bg.svg";
 
 function About() {
   return (
-    <div className=" mt-20 h-max relative overflow-x-hidden no-scrollbar rounded-t-3xl">
+    <div className=" mt-20 h-max relative  rounded-t-3xl">
       <Image
         src={bg}
         alt="infinitehealings bg-image"
         
-        className="w-full h-screen scale-150  object-cover blur-2xl  "
+        className="w-full h-screen   object-cover blur-2xl  "
       />
 
       <div className="md:flex absolute pb-5 pt-10 top-0 left-0 w-full h-full   justify-center items-center">
