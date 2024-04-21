@@ -5,12 +5,12 @@ import bg from "@/public/assets/glow-bg.svg";
 
 function About() {
   return (
-    <div className=" mt-20 h-max relative  rounded-t-3xl">
+    <div className=" mt-20 h-max relative  rounded-y-3xl">
       <Image
         src={bg}
         alt="infinitehealings bg-image"
         
-        className="w-full h-screen   object-cover blur-2xl  "
+        className="w-screen h-screen   object-cover blur-2xl  "
       />
 
       <div className="md:flex absolute pb-5 pt-10 top-0 left-0 w-full h-full   justify-center items-center">
@@ -36,12 +36,7 @@ function About() {
             you are not alone. Together, we can unravel the threads of discord
             and weave a tapestry of harmony and joy.
           </div>
-          <div>
-            Children, too, can benefit from the infinite healing energies that
-            flow through us. Whether it's challenges in concentration or
-            stubborn behavior, let us nurture their spirits with love and
-            understanding.
-          </div>
+          
           <div>
             Thank you for considering the opportunity for infinite healing and
             transformation. Reach out, and let us embark on this sacred journey
