@@ -11,7 +11,7 @@ export default function AppBar() {
   }
   return (
     <div>
-      <div className="fixed h-16 backdrop-blur-xl border-b-2 w-full border-slate-500 rounded-b-lg flex justify-between items-center md:px-16 px-8 z-10">
+      <div className="fixed h-16 backdrop-blur-xl border-b-2 w-full border-slate-500 rounded-b-lg flex justify-between items-center md:px-16 px-8 z-40">
         <div className="md:text-3xl text-2xl font-bold cursor-pointer">
           InfiniteHealings.in
         </div>

@@ -5,7 +5,7 @@ import ImageSection from './ImageSection';
 function Heading() {
   return (
     <div className="relative">
-        <Image src={bg} alt="bg-image" className="w-full h-screen object-center blur-xl object-" />
+        <Image src={bg} alt="bg-image" className="w-full h-screen object-center blur-xl " />
         <ImageSection/>
         
       </div>
