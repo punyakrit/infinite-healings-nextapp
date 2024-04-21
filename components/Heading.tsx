@@ -7,7 +7,7 @@ function Heading() {
     <div className="relative">
         <Image src={bg} alt="bg-image" className="w-full h-screen object-center blur-xl object-" />
         <ImageSection/>
-        djnwjdn
+        
       </div>
   )
 }

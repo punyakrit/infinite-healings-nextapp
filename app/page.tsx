@@ -3,7 +3,7 @@ import React from 'react'
 
 function page() {
   return (
-    <div className='h-full w-screen'>
+    <div className=''>
       <Home/>
     </div>
   )
