@@ -42,6 +42,9 @@ function About() {
             transformation. Reach out, and let us embark on this sacred journey
             together, towards boundless joy and fulfillment.
           </div>
+          <div className="text-end text-gray-800 font-bold">
+            - K Simmi Arora
+          </div>
         </div>
         <div className="md:w-1/2 px-10 py-4 flex justify-center">
           <Image
