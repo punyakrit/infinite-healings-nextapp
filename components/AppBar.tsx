@@ -12,12 +12,14 @@ export default function AppBar() {
     if (aboutComponent) {
       aboutComponent.scrollIntoView({ behavior: "smooth" });
     }
+    setMenu(!menu);
   };
   const handleScrollToContact = () => {
     const contactComponent = document.getElementById("fid");
     if (contactComponent) {
       contactComponent.scrollIntoView({ behavior: "smooth" });
     }
+    setMenu(!menu);
   };
   function toggleMenu() {
     setMenu(!menu);
